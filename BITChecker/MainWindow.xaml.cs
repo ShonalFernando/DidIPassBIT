@@ -1,5 +1,4 @@
-﻿using BITChecker.Data.DataInitializer;
-using System.Text;
+﻿using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -10,22 +9,15 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace BITChecker
-{
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
-    public partial class MainWindow : Window
-    {
-        public MainWindow()
-        {
-            InitializeComponent();
-            //InitializeData();
-        }
+namespace BITChecker;
 
-        private async void InitializeData()
-        {
-            await DataSeeder.SeedAsync(new Data.AppDBContext());
-        }
+/// <summary>
+/// Interaction logic for MainWindow.xaml
+/// </summary>
+public partial class MainWindow : Window
+{
+    public MainWindow()
+    {
+        InitializeComponent();
     }
 }

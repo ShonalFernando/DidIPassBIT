@@ -3,10 +3,61 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:BITChecker.View"
+        xmlns:local="clr-namespace:BITChecker.View" 
+        xmlns:hc="https://handyorg.github.io/handycontrol" 
         mc:Ignorable="d"
-        Title="ShellWindow" Height="450" Width="800">
+        Title="ShellWindow" Height="768" Width="1366">
     <Grid>
-        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="75"/>
+        </Grid.RowDefinitions>
+
+
+        <StackPanel Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Orientation="Vertical">
+            <TextBlock Text="Add Score" Margin="10" FontSize="28" FontFamily="Segoe UI Semilight"/>
+            <TextBlock Text="Filter by Year" Margin="10,0,0,0" FontSize="14"/>
+            <ComboBox Margin="10,5,10,0">
+                <ComboBoxItem Content="1"/>
+                <ComboBoxItem Content="2"/>
+                <ComboBoxItem Content="3"/>
+            </ComboBox>
+
+            <TextBlock Text="Filter by Semester" Margin="10,10,0,0" FontSize="14"/>
+            <ComboBox Margin="10,5,10,0">
+                <ComboBoxItem Content="1"/>
+                <ComboBoxItem Content="2"/>
+            </ComboBox>
+
+            <TextBlock Text="Subject" Margin="10,25,0,0" FontSize="14"/>
+            <ComboBox Margin="10,5,10,0">
+                <ComboBoxItem Content="1"/>
+                <ComboBoxItem Content="2"/>
+            </ComboBox>
+
+            <TextBlock Text="Year done" Margin="10,10,0,0" FontSize="14"/>
+            <TextBox Margin="10,5,10,0"/>
+                
+            <TextBlock Text="Score" Margin="10,10,0,0" FontSize="14"/>
+            <ComboBox Margin="10,5,10,0">
+                <ComboBoxItem Content="1"/>
+                <ComboBoxItem Content="2"/>
+            </ComboBox>
+
+            <TextBlock Text="Repeat?" Margin="10,10,0,0" FontSize="14"/>
+            <ComboBox Margin="10,5,10,0">
+                <ComboBoxItem Content="Yes"/>
+                <ComboBoxItem Content="No"/>
+            </ComboBox>
+
+            <Button Content="Add Score" HorizontalAlignment="Left" Margin="10,20,0,0" Style="{DynamicResource ButtonPrimary}"/>
+        </StackPanel>
+        <DataGrid Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}"/>
+
     </Grid>
 </Window>
