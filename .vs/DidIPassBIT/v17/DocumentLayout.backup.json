@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -47,6 +47,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Bookmark",
@@ -66,8 +70,7 @@
               "RelativeToolTip": "BITChecker\\View\\ShellWindow.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAD4vxkAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T19:56:51.514Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T19:56:51.514Z"
             },
             {
               "$type": "Document",
@@ -103,12 +106,7 @@
               "RelativeToolTip": "BITChecker\\Model\\SubjectScore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T19:13:26.114Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-04-18T19:13:26.114Z"
             },
             {
               "$type": "Document",
@@ -119,8 +117,7 @@
               "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\MainWindow.xaml",
               "RelativeToolTip": "BITChecker\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T19:07:23.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T19:07:23.895Z"
             },
             {
               "$type": "Document",
@@ -132,8 +129,7 @@
               "RelativeToolTip": "BITChecker\\MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T19:07:21.355Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T19:07:21.355Z"
             }
           ]
         }

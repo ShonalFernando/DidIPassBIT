@@ -65,7 +65,7 @@ namespace BITChecker.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BITChecker;V1.0.0.0;component/view/shellwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BITChecker;component/view/shellwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\ShellWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
