@@ -1,4 +1,5 @@
-﻿using MahApps.Metro.Controls;
+﻿using BITChecker.ViewModel;
+using MahApps.Metro.Controls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,7 @@ namespace BITChecker.View
         public ShellWindow()
         {
             InitializeComponent();
+            DataContext = new CalculatorViewModel();
         }
     }
 }

@@ -18,44 +18,33 @@
             <RowDefinition Height="75"/>
         </Grid.RowDefinitions>
 
+        <TextBlock Text="Pass Checker" FontSize="36" FontFamily="Segoe UI Semilight" />
 
         <StackPanel Grid.Column="1" Grid.Row="1" Grid.RowSpan="2" Orientation="Vertical">
             <TextBlock Text="Add Score" Margin="10" FontSize="28" FontFamily="Segoe UI Semilight"/>
+
             <TextBlock Text="Filter by Year" Margin="10,0,0,0" FontSize="14"/>
-            <ComboBox Margin="10,5,10,0">
-                <ComboBoxItem Content="1"/>
-                <ComboBoxItem Content="2"/>
-                <ComboBoxItem Content="3"/>
-            </ComboBox>
+            <ComboBox Margin="10,5,10,0" SelectedItem="{Binding FilterYear, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" ItemsSource="{Binding YearList}" SelectedIndex="0"/>
 
             <TextBlock Text="Filter by Semester" Margin="10,10,0,0" FontSize="14"/>
-            <ComboBox Margin="10,5,10,0">
-                <ComboBoxItem Content="1"/>
-                <ComboBoxItem Content="2"/>
-            </ComboBox>
+            <ComboBox Margin="10,5,10,0" SelectedItem="{Binding FilterSemester}" ItemsSource="{Binding SemestersList}" SelectedIndex="0"/>
 
             <TextBlock Text="Subject" Margin="10,25,0,0" FontSize="14"/>
-            <ComboBox Margin="10,5,10,0">
-                <ComboBoxItem Content="1"/>
-                <ComboBoxItem Content="2"/>
-            </ComboBox>
+            <ComboBox Margin="10,5,10,0" SelectedItem="{Binding SelectedSubject}" ItemsSource="{Binding SortedSubjects}" DisplayMemberPath="SubjectName"/>
 
-            <TextBlock Text="Year done" Margin="10,10,0,0" FontSize="14"/>
-            <TextBox Margin="10,5,10,0"/>
-                
+            <TextBlock Text="Year the exam was done" Margin="10,10,0,0" FontSize="14"/>
+            <TextBox Margin="10,5,10,0" Text="{Binding ExamYear}"/>
+
             <TextBlock Text="Score" Margin="10,10,0,0" FontSize="14"/>
-            <ComboBox Margin="10,5,10,0">
-                <ComboBoxItem Content="1"/>
-                <ComboBoxItem Content="2"/>
-            </ComboBox>
+            <ComboBox Margin="10,5,10,0" SelectedItem="{Binding SelectedScore}" ItemsSource="{Binding GradeOptions}"/>
 
-            <TextBlock Text="Repeat?" Margin="10,10,0,0" FontSize="14"/>
-            <ComboBox Margin="10,5,10,0">
-                <ComboBoxItem Content="Yes"/>
-                <ComboBoxItem Content="No"/>
-            </ComboBox>
+            <ToggleButton Margin="10,10,10,0" IsChecked="{Binding IsRepeat}" Style="{DynamicResource ToggleButtonInfo}" HorizontalAlignment="Left" Width="100" Content="A Repeat?"/>
 
-            <Button Content="Add Score" HorizontalAlignment="Left" Margin="10,20,0,0" Style="{DynamicResource ButtonPrimary}"/>
+            <Button Content="Add Score" 
+            Command="{Binding AddScoreCommand}"
+            HorizontalAlignment="Left" 
+            Margin="10,20,0,0" 
+            Style="{DynamicResource ButtonPrimary}"/>
         </StackPanel>
         <DataGrid Grid.Row="1" d:ItemsSource="{d:SampleData ItemCount=5}"/>
 

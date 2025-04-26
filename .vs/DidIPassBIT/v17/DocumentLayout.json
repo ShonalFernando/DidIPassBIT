@@ -3,20 +3,52 @@
   "WorkspaceRootPath": "D:\\Source\\Repos\\DidIPassBIT\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\viewmodel\\datafields\\calculatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\viewmodel\\datafields\\calculatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\viewmodel\\commands\\calculatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\viewmodel\\commands\\calculatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\view\\shellwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\view\\shellwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\viewmodel\\base\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\viewmodel\\base\\viewmodelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\viewmodel\\businesslogic\\calculatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\viewmodel\\businesslogic\\calculatorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\model\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\model\\subjectscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\model\\subjectscore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\view\\shellwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\view\\shellwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\helper\\csvimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\helper\\csvimporter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|solutionrelative:bitchecker\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{00186594-9EFF-4912-A2D3-1DE2C926A05C}|BITChecker\\BITChecker.csproj|d:\\source\\repos\\didipassbit\\bitchecker\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -45,32 +77,55 @@
               "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShellWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\View\\ShellWindow.xaml.cs",
-              "RelativeDocumentMoniker": "BITChecker\\View\\ShellWindow.xaml.cs",
-              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\View\\ShellWindow.xaml.cs",
-              "RelativeToolTip": "BITChecker\\View\\ShellWindow.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAD4vxkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T19:56:51.514Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "App.xaml",
-              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\App.xaml",
-              "RelativeDocumentMoniker": "BITChecker\\App.xaml",
-              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\App.xaml",
-              "RelativeToolTip": "BITChecker\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T19:55:33.664Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CalculatorViewModel.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\DataFields\\CalculatorViewModel.cs",
+              "RelativeDocumentMoniker": "BITChecker\\ViewModel\\DataFields\\CalculatorViewModel.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\DataFields\\CalculatorViewModel.cs",
+              "RelativeToolTip": "BITChecker\\ViewModel\\DataFields\\CalculatorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T16:18:36.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CalculatorViewModel.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\BusinessLogic\\CalculatorViewModel.cs",
+              "RelativeDocumentMoniker": "BITChecker\\ViewModel\\BusinessLogic\\CalculatorViewModel.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\BusinessLogic\\CalculatorViewModel.cs",
+              "RelativeToolTip": "BITChecker\\ViewModel\\BusinessLogic\\CalculatorViewModel.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAmwFgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:56:41.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Subject.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\Model\\Subject.cs",
+              "RelativeDocumentMoniker": "BITChecker\\Model\\Subject.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\Model\\Subject.cs",
+              "RelativeToolTip": "BITChecker\\Model\\Subject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:24:18.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ShellWindow.xaml",
               "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\View\\ShellWindow.xaml",
               "RelativeDocumentMoniker": "BITChecker\\View\\ShellWindow.xaml",
@@ -83,37 +138,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SubjectScore.cs",
-              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\Model\\SubjectScore.cs",
-              "RelativeDocumentMoniker": "BITChecker\\Model\\SubjectScore.cs",
-              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\Model\\SubjectScore.cs",
-              "RelativeToolTip": "BITChecker\\Model\\SubjectScore.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T19:13:26.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\MainWindow.xaml",
-              "RelativeDocumentMoniker": "BITChecker\\MainWindow.xaml",
-              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\MainWindow.xaml",
-              "RelativeToolTip": "BITChecker\\MainWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T19:07:23.895Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "BITChecker\\MainWindow.xaml.cs",
-              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\MainWindow.xaml.cs",
-              "RelativeToolTip": "BITChecker\\MainWindow.xaml.cs",
+              "Title": "CalculatorViewModel.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\Commands\\CalculatorViewModel.cs",
+              "RelativeDocumentMoniker": "BITChecker\\ViewModel\\Commands\\CalculatorViewModel.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\Commands\\CalculatorViewModel.cs",
+              "RelativeToolTip": "BITChecker\\ViewModel\\Commands\\CalculatorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T19:07:21.355Z"
+              "WhenOpened": "2025-04-26T16:24:37.713Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -124,12 +157,117 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewModelBase.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\Base\\ViewModelBase.cs",
+              "RelativeDocumentMoniker": "BITChecker\\ViewModel\\Base\\ViewModelBase.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\Base\\ViewModelBase.cs",
+              "RelativeToolTip": "BITChecker\\ViewModel\\Base\\ViewModelBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:59:33.448Z",
+              "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SubjectScore.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\Model\\SubjectScore.cs",
+              "RelativeDocumentMoniker": "BITChecker\\Model\\SubjectScore.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\Model\\SubjectScore.cs",
+              "RelativeToolTip": "BITChecker\\Model\\SubjectScore.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T19:13:26.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\App.xaml",
+              "RelativeDocumentMoniker": "BITChecker\\App.xaml",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\App.xaml",
+              "RelativeToolTip": "BITChecker\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-18T19:55:33.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ShellWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\View\\ShellWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BITChecker\\View\\ShellWindow.xaml.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\View\\ShellWindow.xaml.cs",
+              "RelativeToolTip": "BITChecker\\View\\ShellWindow.xaml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAD4vxoAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T19:56:51.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CsvImporter.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\Helper\\CsvImporter.cs",
+              "RelativeDocumentMoniker": "BITChecker\\Helper\\CsvImporter.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\Helper\\CsvImporter.cs",
+              "RelativeToolTip": "BITChecker\\Helper\\CsvImporter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:39:07.239Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\App.xaml.cs",
+              "RelativeDocumentMoniker": "BITChecker\\App.xaml.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\App.xaml.cs",
+              "RelativeToolTip": "BITChecker\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:36:10.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "BITChecker\\Data\\AppDBContext.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "BITChecker\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:35:39.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "BITChecker\\MainWindow.xaml",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\MainWindow.xaml",
+              "RelativeToolTip": "BITChecker\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-18T19:07:23.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "BITChecker\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\MainWindow.xaml.cs",
+              "RelativeToolTip": "BITChecker\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-18T19:07:21.355Z"
             }
           ]
         }
