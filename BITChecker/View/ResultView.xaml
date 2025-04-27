@@ -1,0 +1,61 @@
+﻿<Page x:Class="BITChecker.View.ResultView"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BITChecker.View"
+      xmlns:Helpers="clr-namespace:BITChecker.Helper"
+      mc:Ignorable="d" 
+      d:DesignHeight="768" d:DesignWidth="1366"
+      Title="ResultView">
+    
+    <Page.Resources>
+        <Helpers:SemesterPassedToIconConverter x:Key="SemesterPassedToIconConverter" />
+    </Page.Resources>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text=" Result Evaluation" FontSize="36" FontFamily="Segoe UI Light" />
+
+        <TabControl Grid.Row="1" Style="{DynamicResource TabControlSliding}" SelectedIndex="1">
+            <TabItem Header="  Year  Summaries  "/>
+            <TabItem Header="Semester Summaries ">
+                <StackPanel Background="WhiteSmoke">
+                    <ItemsControl ItemsSource="{Binding SemesterSummaries}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border CornerRadius="10" Background="White" Margin="10">
+                                    <StackPanel Orientation="Horizontal" Margin="2">
+                                        <Image Width="64" Height="64" 
+                           Source="{Binding SemesterPassed, Converter={StaticResource SemesterPassedToIconConverter}}" />
+
+                                        <StackPanel>
+                                            <TextBlock Text="{Binding Title}" Margin="10,0,0,0" 
+                                   FontSize="36" Foreground="#FF448421" />
+
+                                            <TextBlock Text="{Binding Description}" Margin="20,0,0,0"
+                                   HorizontalAlignment="Left" FontSize="24" FontFamily="Segoe UI Semilight" />
+
+                                            <ItemsControl ItemsSource="{Binding Comments}">
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding}" Margin="20,0,0,0" />
+                                                    </DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Page>

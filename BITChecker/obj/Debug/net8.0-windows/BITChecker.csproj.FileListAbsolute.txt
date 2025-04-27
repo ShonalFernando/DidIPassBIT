@@ -156,3 +156,10 @@ D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\runtimes\win-x64
 D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\runtimes\win-x86\native\e_sqlite3.dll
 D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\BITChecker_Content.g.cs
+D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\CalculatorView.g.cs
+D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\ResultView.g.cs
+D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\CalculatorView.baml
+D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\ResultView.baml
+D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\Assets\Indicators\FailIcon.png
+D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\Assets\Indicators\PassIcon.png
+D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs

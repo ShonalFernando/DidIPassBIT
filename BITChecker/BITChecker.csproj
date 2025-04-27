@@ -9,10 +9,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Indicators\FailIcon.png" />
+    <None Remove="Assets\Indicators\PassIcon.png" />
     <None Remove="Subjects.csv" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Assets\Indicators\FailIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Indicators\PassIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Data\Subjects.csv">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

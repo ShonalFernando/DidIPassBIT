@@ -120,5 +120,17 @@ namespace BITChecker.ViewModel
                 OnPropertyChanged();
             }
         }
+
+
+        private ObservableCollection<SubjectScore> _subjectScores;
+        public ObservableCollection<SubjectScore> SubjectScores
+        {
+            get => _subjectScores;
+            set
+            {
+                _subjectScores = value;
+                OnPropertyChanged();
+            }
+        }
     }
 }

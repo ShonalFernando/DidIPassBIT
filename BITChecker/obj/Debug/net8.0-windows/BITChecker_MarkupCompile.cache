@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 D:\Source\Repos\DidIPassBIT\BITChecker\App.xaml
-21640765252
-1-1889578308
-132036492743
+4-1135375401
+3-2113728192
+29597459505
 221-611375114
-MainWindow.xaml;View\ShellWindow.xaml;
+MainWindow.xaml;View\CalculatorView.xaml;View\ResultView.xaml;View\ShellWindow.xaml;
 
 False
 

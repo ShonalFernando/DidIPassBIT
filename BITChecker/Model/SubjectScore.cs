@@ -8,15 +8,14 @@ using System.Threading.Tasks;
 
 namespace BITChecker.Model
 {
-    class SubjectScore
+    public class SubjectScore
     {
-        public Guid Guid { get; set; }  //Ref
-
         // Subject Information
         public int SubjectID { get; set; }
         public string SubjectCode { get; set; } = null!;
         public string SubjectName { get; set; } = null!;
         public bool isEnhancement { get; set; }
+        public bool isRepeat { get; set; }
 
         // Sem & Year
         public int Semester { get; set; }
@@ -27,5 +26,8 @@ namespace BITChecker.Model
         public decimal Grade { get; set; }
 
         public decimal Weight { get; set; } // Grade x Credit
+
+        public bool Passed { get; set; }
+        public bool isRepeatable { get; set; }
     }
 }

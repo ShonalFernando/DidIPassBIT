@@ -1,5 +1,6 @@
 ﻿using BITChecker.Data;
 using BITChecker.Helper;
+using BITChecker.View;
 using System.Configuration;
 using System.Data;
 using System.Windows;
@@ -26,7 +27,7 @@ public partial class App : Application
 
 
         // 3. Launch Main Window
-        new MainWindow().Show();  // <-- create instance & Show it to the user
+        new ShellWindow().Show();  // <-- create instance & Show it to the user
 
     }
 }

@@ -24,7 +24,11 @@ namespace BITChecker.View
         public ShellWindow()
         {
             InitializeComponent();
-            DataContext = new CalculatorViewModel();
+
+            // Navigate to first page
+            Action<object> navigateAction = (page) => MainFrame.Navigate(page);
+
+            MainFrame.Navigate(new CalculatorView(navigateAction));
         }
     }
 }

@@ -8,6 +8,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/indicators/failicon.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/indicators/passicon.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/subjects.csv")]
 
 
