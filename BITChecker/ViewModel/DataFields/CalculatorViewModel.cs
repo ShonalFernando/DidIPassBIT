@@ -6,6 +6,8 @@ using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Threading;
 
 namespace BITChecker.ViewModel
 {
@@ -70,6 +72,17 @@ namespace BITChecker.ViewModel
             }
         }
 
+        private string _updatedScore = string.Empty;
+        public string UpdatedScore
+        {
+            get => _updatedScore;
+            set
+            {
+                _updatedScore = value;
+                OnPropertyChanged();
+            }
+        }
+
         private bool _isRepeat;
         public bool IsRepeat
         {
@@ -77,6 +90,17 @@ namespace BITChecker.ViewModel
             set
             {
                 _isRepeat = value;
+                OnPropertyChanged();
+            }
+        }
+
+        private SubjectScore _selectedSubjectScore;
+        public SubjectScore SelectedSubjectScore
+        {
+            get => _selectedSubjectScore;
+            set
+            {
+                _selectedSubjectScore = value;
                 OnPropertyChanged();
             }
         }
@@ -129,6 +153,32 @@ namespace BITChecker.ViewModel
             set
             {
                 _subjectScores = value;
+                OnPropertyChanged();
+            }
+        }
+
+        // COUNTDOWN
+        private int _countdownValue;
+        private double _progressValue;
+        private readonly DispatcherTimer _timer;
+        private readonly int _totalSeconds = 3;
+
+        public int CountdownValue
+        {
+            get => _countdownValue;
+            set
+            {
+                _countdownValue = value;
+                OnPropertyChanged();
+            }
+        }
+
+        public double ProgressValue
+        {
+            get => _progressValue;
+            set
+            {
+                _progressValue = value;
                 OnPropertyChanged();
             }
         }

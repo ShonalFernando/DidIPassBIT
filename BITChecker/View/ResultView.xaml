@@ -23,7 +23,52 @@
         <TextBlock Text=" Result Evaluation" FontSize="36" FontFamily="Segoe UI Light" />
 
         <TabControl Grid.Row="1" Style="{DynamicResource TabControlSliding}" SelectedIndex="1">
-            <TabItem Header="  Year  Summaries  "/>
+            <TabItem Header="  Year  Summaries  ">
+                <StackPanel Background="WhiteSmoke">
+                    <ItemsControl ItemsSource="{Binding YearSummaries}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <Border CornerRadius="10" Background="White" Margin="10">
+                                    <StackPanel Orientation="Horizontal" Margin="2">
+                                        <Image Width="64" Height="64" 
+            Source="{Binding YearPassed, Converter={StaticResource SemesterPassedToIconConverter}}" />
+
+                                        <StackPanel>
+                                            <TextBlock Text="{Binding Title}" Margin="10,0,0,0" 
+                    FontSize="36" Foreground="#FF448421" />
+
+                                            <TextBlock Text="{Binding Description}" Margin="20,0,0,0"
+                    HorizontalAlignment="Left" FontSize="24" FontFamily="Segoe UI Semilight" />
+
+                                            <ItemsControl ItemsSource="{Binding PositiveComments}">
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding}" Margin="20,0,0,0" Foreground="#FF55A508" />
+                                                    </DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                            <ItemsControl ItemsSource="{Binding NegativeComments}">
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding}" Margin="20,0,0,0" Foreground="#FFD61818" />
+                                                    </DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                            <ItemsControl ItemsSource="{Binding WarningComments}">
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding}" Margin="20,0,0,0" Foreground="#FFA7A216" />
+                                                    </DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                        </StackPanel>
+                                    </StackPanel>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </StackPanel>
+            </TabItem>
             <TabItem Header="Semester Summaries ">
                 <StackPanel Background="WhiteSmoke">
                     <ItemsControl ItemsSource="{Binding SemesterSummaries}">
@@ -41,10 +86,24 @@
                                             <TextBlock Text="{Binding Description}" Margin="20,0,0,0"
                                    HorizontalAlignment="Left" FontSize="24" FontFamily="Segoe UI Semilight" />
 
-                                            <ItemsControl ItemsSource="{Binding Comments}">
+                                            <ItemsControl ItemsSource="{Binding PositiveComments}">
                                                 <ItemsControl.ItemTemplate>
                                                     <DataTemplate>
-                                                        <TextBlock Text="{Binding}" Margin="20,0,0,0" />
+                                                        <TextBlock Text="{Binding}" Margin="20,0,0,0" Foreground="#FF55A508" />
+                                                    </DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                            <ItemsControl ItemsSource="{Binding NegativeComments}">
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding}" Margin="20,0,0,0" Foreground="#FFD61818" />
+                                                    </DataTemplate>
+                                                </ItemsControl.ItemTemplate>
+                                            </ItemsControl>
+                                            <ItemsControl ItemsSource="{Binding WarningComments}">
+                                                <ItemsControl.ItemTemplate>
+                                                    <DataTemplate>
+                                                        <TextBlock Text="{Binding}" Margin="20,0,0,0" Foreground="#FFA7A216" />
                                                     </DataTemplate>
                                                 </ItemsControl.ItemTemplate>
                                             </ItemsControl>

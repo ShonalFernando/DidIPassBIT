@@ -163,3 +163,7 @@ D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\ResultView.
 D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\Assets\Indicators\FailIcon.png
 D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\Assets\Indicators\PassIcon.png
 D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\ScoreEditor.g.cs
+D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\ScoreEditor.baml
+D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\ScoreDeleter.g.cs
+D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\ScoreDeleter.baml

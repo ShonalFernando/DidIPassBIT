@@ -12,5 +12,10 @@ namespace BITChecker.ViewModel
     {
         public ICommand AddSubjectCommand { get; }
         public ICommand GoToResultsCommand { get; }
+        public ICommand EditSubjectCommand { get; }
+        public ICommand UpdateSubjectCommand { get; }
+        public ICommand DeleteSubjectCommand { get; }
+        public ICommand CancelDeleteCommand { get; }
+
     }
 }

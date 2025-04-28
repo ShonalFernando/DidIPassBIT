@@ -8,12 +8,24 @@
     <Compile Update="View\ResultView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\ScoreDeleter.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ScoreEditor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="View\CalculatorView.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\ResultView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ScoreDeleter.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ScoreEditor.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

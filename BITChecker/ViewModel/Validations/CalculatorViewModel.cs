@@ -15,7 +15,87 @@ namespace BITChecker.ViewModel
     {
         private bool CanAddSubject(object? parameter)
         {
-            return SelectedSubject is not null;
+            if (SelectedSubject is null)
+                return false;
+            if (SelectedScore is null)
+                return false;
+            return true;
+        }
+
+        private bool CanNavigate()
+        {
+            var subjectsBySemester = SubjectScores
+                .GroupBy(s => s.Semester)
+                .ToDictionary(g => g.Key, g => g.ToList());
+
+            List<int> completeSemesters = new List<int>();
+            List<int> incompleteSemesters = new List<int>();
+
+            foreach (var kvp in subjectsBySemester)
+            {
+                int semester = kvp.Key;
+                var subjects = kvp.Value;
+
+                var distinctSubjects = subjects
+                    .Where(s => !s.isRepeat)
+                    .Select(s => s.SubjectCode)
+                    .Distinct()
+                    .ToList();
+
+                int expectedSubjectCount = GetExpectedSubjectCountForSemester(semester);
+
+                if (distinctSubjects.Count == expectedSubjectCount)
+                {
+                    completeSemesters.Add(semester);
+                }
+                else
+                {
+                    incompleteSemesters.Add(semester);
+                }
+            }
+
+            if (completeSemesters.Any())
+            {
+                if (incompleteSemesters.Any())
+                {
+                    string message = $"Semesters {string.Join(", ", incompleteSemesters)} have missing subjects.\n" +
+                                     $"Subjects from these semesters will be removed.\n\nDo you want to continue?";
+                    var result = MessageBox.Show(message, "Incomplete Semesters Detected", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+
+                    if (result != MessageBoxResult.Yes)
+                        return false; // User cancelled
+
+                    // Remove subjects of incomplete semesters
+                    foreach (var subject in SubjectScores.Where(s => incompleteSemesters.Contains(s.Semester)).ToList())
+                    {
+                        SubjectScores.Remove(subject);
+                    }
+                }
+
+                return true; // At least one complete semester
+            }
+            else
+            {
+                string message = "No semester is fully completed.\nPlease complete the subjects for at least one semester.";
+                MessageBox.Show(message, "Missing Subjects Detected", MessageBoxButton.OK, MessageBoxImage.Error);
+                return false;
+            }
+        }
+
+        private bool CanNavigateToResult(object? parameter)
+        {
+            if (SubjectScores is not null)
+            {
+                return (SubjectScores.Count > 0);
+            }
+
+            return true;
+        }
+
+        // Can user delete or Edit Subject
+        private bool CanEditorDeleteSubject(object? parameter)
+        {
+            return (SelectedSubjectScore is not null);
         }
 
         // Check if user adds repeat without original sitting
@@ -95,6 +175,7 @@ namespace BITChecker.ViewModel
                 {
                     MessageBox.Show("Cannot add a repeat attempt without entering the original attempt first!",
                                     "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    IsRepeat = false;
                     return false;
                 }
 
@@ -102,6 +183,7 @@ namespace BITChecker.ViewModel
                 {
                     MessageBox.Show("You have already added maximum allowed attempts (Original + 2 Repeats).",
                                     "Validation Error", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    IsRepeat = false;
                     return false;
                 }
             }
@@ -134,6 +216,7 @@ namespace BITChecker.ViewModel
                 {
                     MessageBox.Show("This subject is not repeatable based on last score!",
                                     "Repeat Not Allowed", MessageBoxButton.OK, MessageBoxImage.Warning);
+                    IsRepeat = false;
                     return false;
                 }
             }

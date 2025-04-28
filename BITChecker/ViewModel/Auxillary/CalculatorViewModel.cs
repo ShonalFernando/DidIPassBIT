@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using System.Windows.Threading;
 
 namespace BITChecker.ViewModel
 {
@@ -52,6 +53,22 @@ namespace BITChecker.ViewModel
                     $"Year is only noted for further information and is not validated",
                                 "Exam Year", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
+        }
+
+        // Helper function
+        private int GetExpectedSubjectCountForSemester(int semester)
+        {
+            // You can hardcode or later load from DB or config
+            return semester switch
+            {
+                1 => 5,
+                2 => 5,
+                3 => 5,
+                4 => 5,
+                5 => 4,
+                6 => 4,
+                _ => 5, // Default
+            };
         }
     }
 }

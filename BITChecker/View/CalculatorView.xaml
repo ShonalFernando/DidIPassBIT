@@ -1,4 +1,4 @@
-﻿<Page x:Class="BITChecker.View.CalculatorView"
+﻿<Page xmlns:hc="https://handyorg.github.io/handycontrol"  xmlns:mah="http://metro.mahapps.com/winfx/xaml/controls"  x:Class="BITChecker.View.CalculatorView"
       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
@@ -14,24 +14,15 @@
             <ColumnDefinition Width="3*"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition Height="40"/>
+            <RowDefinition Height="60"/>
             <RowDefinition Height="1*"/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
         <TextBlock Text=" Pass Checker" FontSize="36" FontFamily="Segoe UI Light" />
 
-        <StackPanel Orientation="Horizontal" Grid.Row="1">
-            <TextBlock Text="Mode" Margin="15,10,0,0"/>
-            <ComboBox Margin="10,5,0,5" Width="150">
-                <ComboBoxItem Content="Check Semester"/>
-                <ComboBoxItem Content="Check Year"/>
-                <ComboBoxItem Content="Check Progress"/>
-            </ComboBox>
-        </StackPanel>
 
-        <StackPanel Grid.Column="1" Grid.Row="2"  Orientation="Vertical">
+        <StackPanel Grid.Column="1" Grid.Row="1"  Orientation="Vertical">
             <TextBlock Text="Add Score" Margin="10" FontSize="28" FontFamily="Segoe UI Semilight"/>
 
             <TextBlock Text="Filter by Year" Margin="10,0,0,0" FontSize="14"/>
@@ -57,10 +48,27 @@
             Margin="10,50,10,0" 
             Style="{DynamicResource ButtonPrimary}"/>
         </StackPanel>
-        <DataGrid Grid.Row="2" ItemsSource="{Binding SubjectScores}"/>
+        
+        <DataGrid Grid.Row="1" ItemsSource="{Binding SubjectScores}" SelectedItem="{Binding SelectedSubjectScore}" AutoGenerateColumns="False" CanUserAddRows="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Code" Binding="{Binding SubjectCode}" />
+                <DataGridTextColumn Header="Subject Name" Binding="{Binding SubjectName}" />
+                <DataGridCheckBoxColumn Header="Enhancement?" Binding="{Binding isEnhancement}" />
+                <DataGridCheckBoxColumn Header="Repeat Attempt?" Binding="{Binding isRepeat}" />
+                <DataGridTextColumn Header="Semester" Binding="{Binding Semester}" />
+                <DataGridTextColumn Header="Credit" Binding="{Binding Credit}" />
+                <DataGridTextColumn Header="Grade" Binding="{Binding Grade}" />
+                <DataGridTextColumn Header="Weight (G x C)" Binding="{Binding Weight}" />
+                <DataGridCheckBoxColumn Header="Passed" Binding="{Binding Passed}" />
+                <DataGridCheckBoxColumn Header="Repeatable?" Binding="{Binding isRepeatable}" />
+            </DataGrid.Columns>
+        </DataGrid>
 
-        <StackPanel Grid.Row="3" Orientation="Horizontal">
-            <Button Content="Calculate" Margin="10,0,0,0" Height="40" Width="150" Style="{DynamicResource ButtonSuccess}" Command="{Binding GoToResultsCommand}"/>
+        <StackPanel Grid.Row="2" Grid.ColumnSpan="2" Orientation="Horizontal">
+            <Button Content="Analyze" Margin="10,0,0,0" Height="40" Width="150" Style="{DynamicResource ButtonSuccess}" Command="{Binding GoToResultsCommand}"/>
+            <TextBlock Foreground="#FF404040" Margin="10,15,10,0">-----------------------------------</TextBlock>
+            <Button Content="Edit Score" Height="30" Width="150" Command="{Binding EditSubjectCommand}"  Style="{DynamicResource ButtonWarning}"/>
+            <Button Content="Delete Score" Height="30" Width="150" Margin="10,0,0,0" Style="{DynamicResource ButtonDanger}" Command="{Binding DeleteSubjectCommand}"/>
         </StackPanel>
     </Grid>
 </Page>

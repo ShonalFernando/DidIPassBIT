@@ -20,7 +20,9 @@ namespace BITChecker.Model
 
         public bool SemesterPassed { get; set; }
 
-        public List<string> Comments { get; set; } = new();
+        public List<string> PositiveComments { get; set; } = new();
+        public List<string> WarningComments { get; set; } = new();
+        public List<string> NegativeComments { get; set; } = new();
 
         //For Display
         public string Title { get; set; } = string.Empty;

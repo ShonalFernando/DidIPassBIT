@@ -10,22 +10,22 @@ namespace BITChecker.Model
     {
         public int Year { get; set; }
 
-        public decimal SemesterGPA { get; set; }
+        public decimal YearGPA { get; set; }
         public int EarnedCredits { get; set; }
+        public int EarnedCreditsForCAbove { get; set; }
 
-        // Criteria
         public bool EnhancementsPassed { get; set; }
-        public bool EssentialsPassed { get; set; } // D or above
-        public bool MinimumGpaMet { get; set; }       // 2.0
-        public bool MinimumCreditsMet { get; set; }   // 30
-        public bool SoftwareProjectMet { get; set; }  // check for L3
-        public bool CCreditsPerLevelMet { get; set; } // 20 with atleast C
-
-
-        // Other Data
+        public bool EssentialsPassed { get; set; }
         public bool ContainsRepeats { get; set; }
-        public bool SemesterPassed { get; set; }
 
-        public List<string> Comments { get; set; } = new();
+        public bool YearPassed { get; set; }
+
+        public List<string> PositiveComments { get; set; } = new();
+        public List<string> NegativeComments { get; set; } = new();
+        public List<string> WarningComments { get; set; } = new();
+
+        //For Display
+        public string Title { get; set; } = string.Empty;
+        public string Description { get; set; } = string.Empty;
     }
 }
