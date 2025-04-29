@@ -153,7 +153,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -162,35 +162,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CalculatorViewModel.cs",
-              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\Auxillary\\CalculatorViewModel.cs",
-              "RelativeDocumentMoniker": "BITChecker\\ViewModel\\Auxillary\\CalculatorViewModel.cs",
-              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\Auxillary\\CalculatorViewModel.cs",
-              "RelativeToolTip": "BITChecker\\ViewModel\\Auxillary\\CalculatorViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-27T02:24:57.524Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -202,8 +173,7 @@
               "RelativeToolTip": "BITChecker\\ViewModel\\BusinessLogic\\CalculatorViewModel.cs",
               "ViewState": "AgIAAM4AAAAAAAAAAAAqwOIAAABFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T15:56:41.89Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T15:56:41.89Z"
             },
             {
               "$type": "Document",
@@ -215,8 +185,7 @@
               "RelativeToolTip": "BITChecker\\ViewModel\\DataFields\\CalculatorViewModel.cs",
               "ViewState": "AgIAAIYAAAAAAAAAAAAiwKMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T16:18:36.756Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T16:18:36.756Z"
             },
             {
               "$type": "Document",
@@ -240,8 +209,7 @@
               "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\View\\ScoreDeleter.xaml",
               "RelativeToolTip": "BITChecker\\View\\ScoreDeleter.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T14:47:23.449Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T14:47:23.449Z"
             },
             {
               "$type": "Document",
@@ -252,8 +220,7 @@
               "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\View\\ResultView.xaml",
               "RelativeToolTip": "BITChecker\\View\\ResultView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-27T02:44:00.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T02:44:00.058Z"
             },
             {
               "$type": "Document",
@@ -264,8 +231,19 @@
               "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\View\\CalculatorView.xaml",
               "RelativeToolTip": "BITChecker\\View\\CalculatorView.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-27T03:01:34.08Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-27T03:01:34.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CalculatorViewModel.cs",
+              "DocumentMoniker": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\Auxillary\\CalculatorViewModel.cs",
+              "RelativeDocumentMoniker": "BITChecker\\ViewModel\\Auxillary\\CalculatorViewModel.cs",
+              "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\ViewModel\\Auxillary\\CalculatorViewModel.cs",
+              "RelativeToolTip": "BITChecker\\ViewModel\\Auxillary\\CalculatorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-27T02:24:57.524Z"
             },
             {
               "$type": "Document",
@@ -276,8 +254,7 @@
               "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\View\\ScoreEditor.xaml",
               "RelativeToolTip": "BITChecker\\View\\ScoreEditor.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-28T11:56:39.53Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T11:56:39.53Z"
             },
             {
               "$type": "Document",
@@ -289,8 +266,7 @@
               "RelativeToolTip": "BITChecker\\ViewModel\\Commands\\CalculatorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-26T16:24:37.713Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-26T16:24:37.713Z"
             },
             {
               "$type": "Document",
@@ -551,8 +527,7 @@
               "ToolTip": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\App.xaml",
               "RelativeToolTip": "BITChecker\\App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-04-18T19:55:33.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-18T19:55:33.664Z"
             },
             {
               "$type": "Document",
@@ -612,6 +587,22 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-18T19:07:21.355Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             }
           ]
         }

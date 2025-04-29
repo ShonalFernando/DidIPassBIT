@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BITChecker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+86e248d6db06bc5c8c39c68db18025c2b821db19")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d7bdda984ce755c8b13b701404500fb6d2a0425f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BITChecker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BITChecker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
