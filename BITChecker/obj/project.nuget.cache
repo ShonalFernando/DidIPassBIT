@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "bIzfu/izk1s=",
+  "dgSpecHash": "iik9JIajwHo=",
   "success": true,
   "projectFilePath": "D:\\Source\\Repos\\DidIPassBIT\\BITChecker\\BITChecker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\snira\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
     "C:\\Users\\snira\\.nuget\\packages\\handycontrol\\3.5.1\\handycontrol.3.5.1.nupkg.sha512",
     "C:\\Users\\snira\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\snira\\.nuget\\packages\\inkore.ui.wpf\\1.2.8\\inkore.ui.wpf.1.2.8.nupkg.sha512",
+    "C:\\Users\\snira\\.nuget\\packages\\inkore.ui.wpf.modern\\0.10.0\\inkore.ui.wpf.modern.0.10.0.nupkg.sha512",
     "C:\\Users\\snira\\.nuget\\packages\\mahapps.metro\\2.4.10\\mahapps.metro.2.4.10.nupkg.sha512",
     "C:\\Users\\snira\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
     "C:\\Users\\snira\\.nuget\\packages\\microsoft.build.framework\\17.8.3\\microsoft.build.framework.17.8.3.nupkg.sha512",

@@ -57,7 +57,7 @@
                 <DataGridCheckBoxColumn Header="Repeat Attempt?" Binding="{Binding isRepeat}" />
                 <DataGridTextColumn Header="Semester" Binding="{Binding Semester}" />
                 <DataGridTextColumn Header="Credit" Binding="{Binding Credit}" />
-                <DataGridTextColumn Header="Grade" Binding="{Binding Grade}" />
+                <DataGridTextColumn Header="Grade" Binding="{Binding GradeDisplay}" />
                 <DataGridTextColumn Header="Weight (G x C)" Binding="{Binding Weight}" />
                 <DataGridCheckBoxColumn Header="Passed" Binding="{Binding Passed}" />
                 <DataGridCheckBoxColumn Header="Repeatable?" Binding="{Binding isRepeatable}" />

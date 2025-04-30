@@ -229,17 +229,21 @@ namespace BITChecker.ViewModel
                 _addedSubject.isRepeat = IsRepeat;
                 _addedSubject = SetRepeatable(_addedSubject);
 
+                _addedSubject.GradeDisplay = $"{SelectedScore} ({_addedSubject.Grade})";
+
                 // If not an ehnancement and repeat, then cap the score
                 if (_addedSubject.isEnhancement is not true && _addedSubject.isRepeat)
                 {
                     if (_addedSubject.Grade > 2.0m)
                     {
                         _addedSubject.Grade = 2.0m;
+                        _addedSubject.GradeDisplay = $"{SelectedScore} ({_addedSubject.Grade} (Capped))";
                     }
                 }
 
                 _addedSubject.Weight = _addedSubject.Credit * _addedSubject.Grade;
                 YearNormalizeWarning();
+
                 SubjectScores.Add(_addedSubject);
             }
         }

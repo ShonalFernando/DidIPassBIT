@@ -5,7 +5,53 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BITChecker.View" 
         xmlns:hc="https://handyorg.github.io/handycontrol" 
+        xmlns:ui="http://schemas.inkore.net/lib/ui/wpf/modern"
+        ui:WindowHelper.UseModernWindowStyle="True"
+        ui:WindowHelper.SystemBackdropType="Mica"
         mc:Ignorable="d"
         Title="ShellWindow" Height="768" Width="1366">
-    <Frame x:Name="MainFrame"/>
+    <ui:NavigationView IsPaneOpen="False">
+        <ui:NavigationView.MenuItems>
+            <ui:NavigationViewItem Content="GPA Calculator">
+                <ui:NavigationViewItem.Icon>
+                    <Image Source="/Assets/Icons/calculator.png" />
+                </ui:NavigationViewItem.Icon>
+            </ui:NavigationViewItem>
+
+            <ui:NavigationViewItem Content="VLE">
+                <ui:NavigationViewItem.Icon>
+                    <Image Source="/Assets/Icons/web.png" />
+                </ui:NavigationViewItem.Icon>
+            </ui:NavigationViewItem>
+
+            <ui:NavigationViewItem Content="Project VLE">
+                <ui:NavigationViewItem.Icon>
+                    <Image Source="/Assets/Icons/project.png" />
+                </ui:NavigationViewItem.Icon>
+            </ui:NavigationViewItem>
+
+            <ui:NavigationViewItem Content="Resources">
+                <ui:NavigationViewItem.Icon>
+                    <Image Source="/Assets/Icons/resources.png" />
+                </ui:NavigationViewItem.Icon>
+            </ui:NavigationViewItem>
+
+            <ui:NavigationViewItem Content="Find Tutors">
+                <ui:NavigationViewItem.Icon>
+                    <Image Source="/Assets/Icons/class.png" />
+                </ui:NavigationViewItem.Icon>
+            </ui:NavigationViewItem>
+
+            <ui:NavigationViewItem Content="STXT">
+                <ui:NavigationViewItem.Icon>
+                    <Image Source="/Assets/Icons/study.png" />
+                </ui:NavigationViewItem.Icon>
+            </ui:NavigationViewItem>
+        </ui:NavigationView.MenuItems>
+
+        <Border>
+            <Frame x:Name="MainFrame"/>
+        </Border>
+
+    </ui:NavigationView>
 </Window>

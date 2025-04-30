@@ -24,6 +24,7 @@ namespace BITChecker.Model
         public decimal Credit { get; set; }
 
         public decimal Grade { get; set; }
+        public string GradeDisplay { get; set; } = "";
 
         public decimal Weight { get; set; } // Grade x Credit
 

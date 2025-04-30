@@ -167,3 +167,12 @@ D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\ScoreEditor
 D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\ScoreEditor.baml
 D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\ScoreDeleter.g.cs
 D:\Source\Repos\DidIPassBIT\BITChecker\obj\Debug\net8.0-windows\View\ScoreDeleter.baml
+D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\iNKORE.UI.WPF.dll
+D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\iNKORE.UI.WPF.Modern.Controls.dll
+D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\iNKORE.UI.WPF.Modern.dll
+D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\Assets\Icons\calculator.png
+D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\Assets\Icons\class.png
+D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\Assets\Icons\project.png
+D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\Assets\Icons\resources.png
+D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\Assets\Icons\study.png
+D:\Source\Repos\DidIPassBIT\BITChecker\bin\Debug\net8.0-windows\Assets\Icons\web.png

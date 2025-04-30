@@ -9,12 +9,36 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Assets\Icons\calculator.png" />
+    <None Remove="Assets\Icons\class.png" />
+    <None Remove="Assets\Icons\project.png" />
+    <None Remove="Assets\Icons\resources.png" />
+    <None Remove="Assets\Icons\study.png" />
+    <None Remove="Assets\Icons\web.png" />
     <None Remove="Assets\Indicators\FailIcon.png" />
     <None Remove="Assets\Indicators\PassIcon.png" />
     <None Remove="Subjects.csv" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Assets\Icons\calculator.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\class.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\project.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\resources.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\study.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Icons\web.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Assets\Indicators\FailIcon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -28,6 +52,7 @@
 
   <ItemGroup>
     <PackageReference Include="HandyControl" Version="3.5.1" />
+    <PackageReference Include="iNKORE.UI.WPF.Modern" Version="0.10.0" />
     <PackageReference Include="MahApps.Metro" Version="2.4.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.4" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.4">

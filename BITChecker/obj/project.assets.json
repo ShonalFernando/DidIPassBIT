@@ -48,6 +48,47 @@
           }
         }
       },
+      "iNKORE.UI.WPF/1.2.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll": {
+            "related": ".deps.json;.pdb"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll": {
+            "related": ".deps.json;.pdb"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "iNKORE.UI.WPF.Modern/0.10.0": {
+        "type": "package",
+        "dependencies": {
+          "iNKORE.UI.WPF": "1.2.8"
+        },
+        "compile": {
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.Modern.dll": {
+            "related": ".Controls.pdb;.Controls.xml;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.Modern.Controls.dll": {
+            "related": ".pdb;.xml"
+          },
+          "lib/net6.0-windows7.0/iNKORE.UI.WPF.Modern.dll": {
+            "related": ".Controls.pdb;.Controls.xml;.pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
       "MahApps.Metro/2.4.10": {
         "type": "package",
         "dependencies": {
@@ -1306,6 +1347,56 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "iNKORE.UI.WPF/1.2.8": {
+      "sha512": "7b+z25JFdhGAfyJqlVIF0vLbmgsRvqDZMvhGPTz20gzQigDPMqVUOoCCKB5824GtYsjFCYNilmaowb+4yWATkQ==",
+      "type": "package",
+      "path": "inkore.ui.wpf/1.2.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "WpfLibrary_256w.png",
+        "inkore.ui.wpf.1.2.8.nupkg.sha512",
+        "inkore.ui.wpf.nuspec",
+        "lib/net452/iNKORE.UI.WPF.dll",
+        "lib/net452/iNKORE.UI.WPF.pdb",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.deps.json",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.dll",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.pdb"
+      ]
+    },
+    "iNKORE.UI.WPF.Modern/0.10.0": {
+      "sha512": "PUuIzBPQGKnu/PDPa1/zcYCRvj8y89oamwUW+bXDrpMzIRi9Y6R24M6V0tz3iDtCQBKAW/be4coZvR93BqcoIA==",
+      "type": "package",
+      "path": "inkore.ui.wpf.modern/0.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "WpfLibrary_64w.png",
+        "inkore.ui.wpf.modern.0.10.0.nupkg.sha512",
+        "inkore.ui.wpf.modern.nuspec",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.dll",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.pdb",
+        "lib/net452/iNKORE.UI.WPF.Modern.Controls.xml",
+        "lib/net452/iNKORE.UI.WPF.Modern.dll",
+        "lib/net452/iNKORE.UI.WPF.Modern.pdb",
+        "lib/net452/iNKORE.UI.WPF.Modern.xml",
+        "lib/net6.0-windows10.0.18362/iNKORE.UI.WPF.Modern.Controls.deps.json",
+        "lib/net6.0-windows10.0.18362/iNKORE.UI.WPF.Modern.Controls.dll",
+        "lib/net6.0-windows10.0.18362/iNKORE.UI.WPF.Modern.Controls.pdb",
+        "lib/net6.0-windows10.0.18362/iNKORE.UI.WPF.Modern.Controls.xml",
+        "lib/net6.0-windows10.0.18362/iNKORE.UI.WPF.Modern.dll",
+        "lib/net6.0-windows10.0.18362/iNKORE.UI.WPF.Modern.pdb",
+        "lib/net6.0-windows10.0.18362/iNKORE.UI.WPF.Modern.xml",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.Modern.Controls.dll",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.Modern.Controls.pdb",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.Modern.Controls.xml",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.Modern.dll",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.Modern.pdb",
+        "lib/net6.0-windows7.0/iNKORE.UI.WPF.Modern.xml"
       ]
     },
     "MahApps.Metro/2.4.10": {
@@ -3426,7 +3517,8 @@
       "Microsoft.EntityFrameworkCore >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.4",
       "Microsoft.EntityFrameworkCore.Sqlite >= 9.0.4",
-      "Microsoft.EntityFrameworkCore.Tools >= 9.0.4"
+      "Microsoft.EntityFrameworkCore.Tools >= 9.0.4",
+      "iNKORE.UI.WPF.Modern >= 0.10.0"
     ]
   },
   "packageFolders": {
@@ -3506,6 +3598,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[9.0.4, )"
+          },
+          "iNKORE.UI.WPF.Modern": {
+            "target": "Package",
+            "version": "[0.10.0, )"
           }
         },
         "imports": [

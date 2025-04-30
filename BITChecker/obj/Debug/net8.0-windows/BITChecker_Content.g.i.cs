@@ -8,6 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/calculator.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/class.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/project.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/resources.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/study.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/icons/web.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/indicators/failicon.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/indicators/passicon.png")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("data/subjects.csv")]
