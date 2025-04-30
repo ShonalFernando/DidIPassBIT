@@ -27,5 +27,8 @@ namespace BITChecker.Model
         //For Display
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; } = string.Empty;
+
+        //Worry Meter
+        public int WorryIndex { get; set; }
     }
 }
